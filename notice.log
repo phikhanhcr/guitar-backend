@@ -1,0 +1,171 @@
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:14:35.075Z"}
+{"message":"Check req.body","level":"error","timestamp":"2020-09-23T02:15:01.621Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:16:45.941Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:16:47.684Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:16:56.671Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:02.640Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:14.919Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:18.277Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:19.615Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:26.523Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:17:28.703Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:21:58.341Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:07.296Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:08.774Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:13.435Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:21.173Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:46.120Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:22:52.087Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:23:13.825Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:23:21.775Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:34:37.248Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:35:33.039Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:36:04.275Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:37:07.413Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:37:26.636Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:37:31.939Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:37:33.377Z"}
+{"message":"Check req.body","level":"error","timestamp":"2020-09-23T02:38:04.063Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T02:38:08.352Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:40:59.333Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:41:02.105Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T02:41:43.692Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:42:18.509Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:42:22.266Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:42:40.010Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T02:42:55.799Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:43:18.097Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:43:25.795Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:44:53.643Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:44:55.662Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:44:58.194Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:45:05.498Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:45:22.440Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:45:58.559Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:46:14.508Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:46:18.751Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:46:22.405Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:46:30.841Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:47:06.121Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:47:20.188Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:47:25.206Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:47:29.486Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:48:46.302Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:48:48.573Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:48:55.282Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:48:59.998Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:49:29.315Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:49:31.327Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T02:49:34.557Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T02:59:46.419Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:00:00.525Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:01:32.931Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:01:45.137Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:01:53.677Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:02:44.546Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:02:55.813Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:03:21.444Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:03:28.869Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:03:35.341Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:04:48.192Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:06:10.897Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:06:40.123Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:06:49.645Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:07:11.709Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:07:14.773Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:07:59.092Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:08:02.092Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:08:04.865Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:08:16.132Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:08:22.767Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:11:17.880Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:11:33.927Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:11:36.431Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:11:40.776Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:11:55.242Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:12:37.129Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:12:59.191Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:13:38.338Z"}
+{"message":"Created a new catalog","level":"info","timestamp":"2020-09-23T03:14:07.018Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:14:17.901Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:14:27.214Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:17:46.924Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:18:55.721Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:16.583Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:31.566Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:33.934Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:38.287Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:39.910Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:41.431Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:48.605Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:52.415Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:19:55.461Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:09.543Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:14.066Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:18.775Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:19.954Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:21.423Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:23.564Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:20:27.945Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:21:20.630Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:21:22.588Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:21:44.399Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:21:47.162Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:22:38.310Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:21.025Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:27.106Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:39.004Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:42.596Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:49.369Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:26:51.736Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:34:31.517Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:34:37.153Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:35:13.979Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:35:15.471Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:35:26.719Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:35:29.706Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:29.852Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:32.511Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:36.317Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:40.903Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:42.300Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:38:53.867Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:01.044Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:05.593Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:13.992Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:33.223Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:35.209Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:39.695Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:43.089Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:39:48.637Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:40:02.760Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:40:38.332Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:40:42.432Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:40:51.189Z"}
+{"message":"Check req.body","level":"error","timestamp":"2020-09-23T03:40:52.314Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:41:57.071Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:00.060Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:05.222Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:06.790Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:09.451Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:40.098Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:46.470Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:42:50.309Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:43:03.522Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:43:44.741Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:44:25.789Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:27.017Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:30.670Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:34.141Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:40.311Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:43.198Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:53.011Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:56.476Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:45:59.176Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:46:05.188Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:58:03.371Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:58:06.636Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:58:52.744Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:59:05.077Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:59:08.549Z"}
+{"message":"Connected to mongodb://localhost:27017/guitar-shop","level":"info","timestamp":"2020-09-23T03:59:19.673Z"}
