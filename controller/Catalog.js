@@ -79,15 +79,16 @@ module.exports.deleteAll = asyncMiddleware(async (req, res) => {
   })
 })
 
+
+
 module.exports.findByLinkLef = asyncMiddleware(async (req, res) => {
   const item = await Catalog.findOne({ linkRef: req.params.linkRef })
   if (!item) {
     return res.status(400).send("Wrong link Ref")
   }
-  
   try {
-    const chosenOne = await Catalog.findOne({ linkRef: req.params.linkRef });
-    res.json(chosenOne)
+    
+    res.json(item)
   } catch (error) {
     res.json({ message: error })
   }

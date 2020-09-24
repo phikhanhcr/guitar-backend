@@ -3,10 +3,13 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const bodyParser = require('body-parser')
-const mongoose = require('mongoose');
-const winston = require('winston');
+
 const routeCatalogs = require('./route/Catalog')
+const routeGroup = require('./route/musicalInstrument')
+const routeAllProduct = require('./route/EachProduct')
+
 const errorMiddleware = require('./middleware/error')
+
 require('winston-mongodb');
  
 require('./startup/db')();
@@ -20,7 +23,9 @@ app.get('/', (req, res) => {
   res.redirect('/api/sanpham');
 })  
 
-app.use('/api/sanpham' , routeCatalogs);
+app.use('/api/catalogs' , routeCatalogs);
+app.use('/api/sanpham' , routeGroup);
+app.use('/api/all-product' , routeAllProduct);
 app.use(errorMiddleware);
 
 

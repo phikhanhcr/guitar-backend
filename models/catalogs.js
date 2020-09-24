@@ -35,3 +35,4 @@ function validateCatalog(catalog) {
 const Catalog = mongoose.model('Catalog', catalogSchema, 'catalogs');
 module.exports.Catalog = Catalog;
 module.exports.validateCatalog = validateCatalog;
+module.exports.catalogSchema = catalogSchema
