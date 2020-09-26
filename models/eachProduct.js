@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 const removeAccents = require('../middleware/removeAccents');
 const { musicalSchema } = require('./musicalInstrument');
 
-var eachProduct = new Schema({
+var eachProductSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -48,6 +48,7 @@ function validateEachProduct(eachPro) {
   return Joi.validate(eachPro, schema)
 }
 
-const EachProduct = mongoose.model('EachProduct', eachProduct, 'allProducts');
+const EachProduct = mongoose.model('EachProduct', eachProductSchema, 'allProducts');
 module.exports.EachProduct = EachProduct;
+module.exports.eachProductSchema = eachProductSchema;
 module.exports.validateEachProduct = validateEachProduct;

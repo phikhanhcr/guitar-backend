@@ -16,6 +16,4 @@ router.get('/:linkRef', controllerCatalog.findByLinkLef)
 
 router.put('/:linkRef', controllerCatalog.editCatalogs)
 
-// router.get('/:linkRef/:musical', )
-
 module.exports = router;

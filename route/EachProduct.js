@@ -33,26 +33,64 @@ router.post('/', async (req, res) => {
 
   try {
     const newPro = await EachProduct.create({
-      name : req.body.name,
-      numberInStock : req.body.numberInStock,
-      price : req.body.price,
-      groupInstrument : groupInstrument
+      name: req.body.name,
+      numberInStock: req.body.numberInStock,
+      price: req.body.price,
+      groupInstrument: groupInstrument
     })
     res.json(newPro)
   } catch (error) {
-    console.log('Something wrong' , error);
+    console.log('Something wrong', error);
   }
 })
 
-router.get('/:linkRef', async (req, res ) => {
-  const chooseOne = await EachProduct.findOne({
-    linkRef : req.params.linkRef
+// router.get('/:linkRef', async (req, res ) => {
+//   const chooseOne = await EachProduct.findOne({
+//     linkRef : req.params.linkRef
+//   })
+//   if(!chooseOne) {
+//     return res.status(400).send("Invalid link reference")
+//   }
+//   res.json(chooseOne);
+// })
+
+router.get('/:group', async (req, res) => {
+  const group = await Product.findOne({
+    linkRef: req.params.group
   })
-  if(!chooseOne) {
-    return res.status(400).send("Invalid link reference")
+  if (!group) {
+    return res.status(400).send("Invalid group Id")
   }
-  res.json(chooseOne);
+  try {
+    const allProductsFollowGroup = await EachProduct.find({
+      groupInstrument: group
+    })
+    res.json(allProductsFollowGroup)
+  } catch (error) {
+    console.log(error)
+  }
 })
+
+router.get('/:group/:item', async (req, res) => {
+  const group = await Product.findOne({
+    linkRef: req.params.group
+  })
+  if (!group) {
+    return res.status(400).send("Invalid group Id")
+  }
+  console.log(group)
+  try {
+    const allProductsFollowGroup = (await EachProduct.find({
+      groupInstrument: group
+    })).filter(ele => {
+      return ele.linkRef === req.params.item
+    })
+    res.json(allProductsFollowGroup)
+  } catch (error) {
+    console.log(error)
+  }
+})
+
 
 
 module.exports = router;
