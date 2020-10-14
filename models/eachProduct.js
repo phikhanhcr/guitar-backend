@@ -35,6 +35,10 @@ var eachProductSchema = new Schema({
   price : {
     type : Number,
     require
+  }, 
+  img : {
+    type : String , 
+    default : 'https://thegioidanviet.com/wp-content/uploads/2019/10/dan-guitar-acoustic-nghe-nhan-thuan-dt-03c-1.jpg'
   }
 })
 

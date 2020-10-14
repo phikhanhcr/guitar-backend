@@ -9,3 +9,9 @@
 {"message":"Bad request, check req.body","level":"error","timestamp":"2020-09-24T08:02:34.502Z"}
 {"message":"Bad request, check req.body","level":"error","timestamp":"2020-09-24T08:02:52.899Z"}
 {"message":"Bad request, check req.body","level":"error","timestamp":"2020-09-24T08:26:42.854Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-27T08:37:34.101Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-27T08:38:50.859Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-27T08:39:49.154Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-30T08:36:52.960Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-30T08:37:16.230Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-09-30T08:37:22.916Z"}

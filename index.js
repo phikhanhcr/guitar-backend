@@ -10,20 +10,13 @@ const routeAllProduct = require('./route/EachProduct')
 const routeUser = require('./route/User')
 const errorMiddleware = require('./middleware/error')
 const routeCart = require('./route/Cart')
-var corsOptions = {
-  origin: 'http://localhost:3000/api/all-product',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  cors : 'no-cors',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
+app.use(cors())
 
 
 require('winston-mongodb');
 require('./startup/db')();
 
-app.use(cors());
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
@@ -35,9 +28,9 @@ app.get('/', (req, res) => {
 
 app.use('/api/cart', routeCart)
 app.use('/api/user', routeUser);
-app.use('/api/catalogs', cors(corsOptions), routeCatalogs);
-app.use('/api/group', cors(corsOptions), routeGroup);
-app.use('/api/all-product', cors(corsOptions), routeAllProduct);
+app.use('/api/catalogs',  routeCatalogs);
+app.use('/api/group',  routeGroup);
+app.use('/api/all-product',  routeAllProduct);
 app.use(errorMiddleware);
 
 
