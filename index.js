@@ -10,6 +10,7 @@ const routeAllProduct = require('./route/EachProduct')
 const routeUser = require('./route/User')
 const errorMiddleware = require('./middleware/error')
 const routeCart = require('./route/Cart')
+const routeLogin = require('./route/Login')
 app.use(cors())
 
 
@@ -32,7 +33,7 @@ app.use('/api/catalogs',  routeCatalogs);
 app.use('/api/group',  routeGroup);
 app.use('/api/all-product',  routeAllProduct);
 app.use(errorMiddleware);
-
+app.use('/login' ,routeLogin);
 
 const server = app.listen(port, () => {
   console.log('App listening on ' + port);
