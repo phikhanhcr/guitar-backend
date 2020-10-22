@@ -10,8 +10,12 @@ const Fawn = require('fawn')
 
 Fawn.init("mongodb://localhost:27017/guitar-shop");
 var task = Fawn.Task();
+
 router.get('/', asyncMiddleware(async (req, res) => {
-  const cart = await Cart.find();
+  console.log(req.user)
+  const cart = await Cart
+    .findOne({ userId: req.user })
+    .populate('cart.idProduct', 'name price')
   res.json(cart)
 }))
 
