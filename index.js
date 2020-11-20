@@ -13,12 +13,14 @@ const errorMiddleware = require('./middleware/error')
 const routeCart = require('./route/Cart')
 const routeLogin = require('./route/Login')
 const AuthTokenMiddleware = require('./middleware/AuthTokenMiddleware')
-app.use(cors())
+const routeDonHang = require('./route/DonDatHang');
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' })
 
+app.use(cors())
 
 require('winston-mongodb');
 require('./startup/db')();
-
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -29,13 +31,21 @@ app.get('/', (req, res) => {
   res.redirect('/api/catalogs');
 })
 
-app.use('/api/cart',AuthTokenMiddleware.checkAuthToken, routeCart)
-app.use('/api/user', AuthTokenMiddleware.checkAuthToken ,routeUser);
-app.use('/api/catalogs',  routeCatalogs);
-app.use('/api/group',  routeGroup);
-app.use('/api/all-product',  routeAllProduct);
+app.use(express.static('public'));
+app.use('/api/cart',
+  AuthTokenMiddleware.checkAuthToken,
+  routeCart
+)
+app.use('/api/user',
+  AuthTokenMiddleware.checkAuthToken,
+  routeUser
+);
+app.use('/api/catalogs', routeCatalogs);
+app.use('/api/group', routeGroup);
+app.use('/api/all-product', routeAllProduct);
 app.use(errorMiddleware);
-app.use('/login' ,routeLogin);
+app.use('/login', routeLogin);
+app.use('/api/donhang', AuthTokenMiddleware.checkAuthToken, routeDonHang)
 
 const server = app.listen(port, () => {
   console.log('App listening on ' + port);

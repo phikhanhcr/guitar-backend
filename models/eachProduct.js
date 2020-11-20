@@ -28,25 +28,31 @@ var eachProductSchema = new Schema({
     type: musicalSchema,
     require
   },
-  numberInStock : {
-    type : Number,
+  numberInStock: {
+    type: Number,
     require
   },
-  price : {
-    type : Number,
+  price: {
+    type: Number,
     require
-  }, 
-  img : {
-    type : String , 
-    default : 'https://thegioidanviet.com/wp-content/uploads/2019/10/dan-guitar-acoustic-nghe-nhan-thuan-dt-03c-1.jpg'
+  },
+  img: {
+    type: String,
+    default : "https://i.pinimg.com/originals/97/50/8f/97508f15f1061b9c94772adcfb8481d4.png",
+    require
+  },
+  description: {
+    type: String,
   }
 })
 
 function validateEachProduct(eachPro) {
   const schema = {
     name: Joi.string().required(),
-    numberInStock : Joi.number().required(),
-    price : Joi.number().required(),
+    numberInStock: Joi.number().required(),
+    price: Joi.number().required(),
+    img: Joi.string().required(),
+    description: Joi.string(),
     groupId: Joi.objectId().required()
   }
   return Joi.validate(eachPro, schema)

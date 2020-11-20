@@ -1,12 +1,10 @@
 const mongoose = require('mongoose');
 const Joi = require('joi');
-const { eachProductSchema } = require('./eachProduct');
-const { userSchema } = require('./User');
 const { ObjectId } = mongoose.Schema.Types
 Joi.objectId = require('joi-objectid')(Joi);
 var Schema = mongoose.Schema;
 
-const cartSchema = new Schema({
+const donMuaSchema = new Schema({
   userId: {
     type: ObjectId,
     ref: 'User',
@@ -14,7 +12,7 @@ const cartSchema = new Schema({
   cart: [{
     idProduct: {
       type: ObjectId,
-      ref : "EachProduct"
+      ref: "EachProduct"
     },
     amount: {
       type: Number,
@@ -23,14 +21,13 @@ const cartSchema = new Schema({
   }]
 })
 
-function validateCart(req) {
+function validateDonMua(req) {
   const schema = {
-    idProduct : Joi.objectId().required(),
-    amount : Joi.number().required()
+
   }
   return Joi.validate(req, schema)
 }
 
-const Cart = mongoose.model('Cart', cartSchema, 'cart');
-module.exports.Cart = Cart;
-module.exports.validateCart = validateCart;
+const DonMua = mongoose.model('DonMua', donMuaSchema, 'donMua');
+module.exports.DonMua = DonMua;
+module.exports.validateDonMua = validateDonMua;

@@ -16,3 +16,28 @@
 {"message":"Check input field","level":"error","timestamp":"2020-09-30T08:37:16.230Z"}
 {"message":"Check input field","level":"error","timestamp":"2020-09-30T08:37:22.916Z"}
 {"message":"Check input field","level":"error","timestamp":"2020-10-16T02:45:09.148Z"}
+{"message":"Check input field","level":"error","timestamp":"2020-10-22T17:56:32.054Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-10-28T15:40:55.459Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-10-28T15:41:47.604Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-10-28T15:42:44.027Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-10-28T15:43:46.263Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-10-28T15:44:03.548Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:22:39.949Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:23:45.286Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:23:46.121Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:23:46.625Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:23:46.817Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:23:49.641Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:24:09.589Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:24:43.909Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:25:14.822Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:25:42.809Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:26:28.422Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:26:31.984Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:31:23.501Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:31:49.764Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:35:25.326Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:35:40.893Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:35:48.835Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:37:09.881Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-19T15:37:42.602Z"}
