@@ -55,4 +55,7 @@ router.get('/', checkAuthToken, async (req, res, next) => {
     _id: user._id
   })
 })
+
+
+
 module.exports = router;

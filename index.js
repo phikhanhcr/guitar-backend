@@ -14,9 +14,7 @@ const routeCart = require('./route/Cart')
 const routeLogin = require('./route/Login')
 const AuthTokenMiddleware = require('./middleware/AuthTokenMiddleware')
 const routeDonHang = require('./route/DonDatHang');
-const multer = require('multer');
-const upload = multer({ dest: 'uploads/' })
-
+const routeAdmin = require('./route/LoginAdmin')
 app.use(cors())
 
 require('winston-mongodb');
@@ -37,16 +35,16 @@ app.use('/api/cart',
   routeCart
 )
 app.use('/api/user',
-  AuthTokenMiddleware.checkAuthToken,
+  AuthTokenMiddleware.checkAdminToken,
   routeUser
 );
 app.use('/api/catalogs', routeCatalogs);
 app.use('/api/group', routeGroup);
-app.use('/api/all-product', routeAllProduct);
+app.use('/api/all-product',AuthTokenMiddleware.checkAdminToken ,routeAllProduct);
 app.use(errorMiddleware);
 app.use('/login', routeLogin);
 app.use('/api/donhang', AuthTokenMiddleware.checkAuthToken, routeDonHang)
-
+app.use('/admin-login', routeAdmin)
 const server = app.listen(port, () => {
   console.log('App listening on ' + port);
 })

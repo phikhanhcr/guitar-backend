@@ -11,6 +11,9 @@ router.get('/:group', controller.getGroup )
 
 router.get('/:group/:item', controller.getSpecificItem )
 
+router.delete('/:item', controller.deleteItem )
+
+
 // router.get('/:linkRef', async (req, res ) => {
 //   const chooseOne = await EachProduct.findOne({
 //     linkRef : req.params.linkRef

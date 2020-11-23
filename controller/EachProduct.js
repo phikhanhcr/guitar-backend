@@ -2,7 +2,7 @@ const logger = require('../config/Looger');
 const { Catalog } = require('../models/catalogs');
 const { EachProduct, validateEachProduct } = require('../models/eachProduct');
 const { Product } = require('../models/musicalInstrument');
-const multer  = require('multer')
+const multer = require('multer')
 const cloudinary = require('cloudinary').v2;
 const upload = multer({ dest: '../uploads' })
 
@@ -17,7 +17,7 @@ module.exports.getAllProduct = async (req, res) => {
   }
 }
 
-module.exports.postProduct =  async (req, res) => {
+module.exports.postProduct = async (req, res) => {
   const { error } = validateEachProduct(req.body);
   console.log(error)
   if (error) {
@@ -35,9 +35,9 @@ module.exports.postProduct =  async (req, res) => {
       name: req.body.name,
       numberInStock: req.body.numberInStock,
       price: req.body.price,
-      img : req.body.img,
+      img: req.body.img,
       groupInstrument: groupInstrument,
-      description : req.body.description
+      description: req.body.description
     })
     res.json(newPro)
   } catch (error) {
@@ -63,7 +63,7 @@ module.exports.getGroup = async (req, res) => {
   }
 }
 
-module.exports.getSpecificItem =  async (req, res) => {
+module.exports.getSpecificItem = async (req, res) => {
   const group = await Product.findOne({
     linkRef: req.params.group
   })
@@ -79,6 +79,19 @@ module.exports.getSpecificItem =  async (req, res) => {
     })
     res.json(allProductsFollowGroup)
   } catch (error) {
+    console.log(error)
+  }
+}
+
+module.exports.deleteItem = async (req, res) => {
+  console.log(req.params.item)
+  try {
+    await EachProduct.findByIdAndRemove(req.params.item)
+    return res.json({
+      message : "successful"
+    })
+  } catch (error) {
+    console.log("hi")
     console.log(error)
   }
 }

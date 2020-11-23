@@ -14,7 +14,7 @@ const userSchema = new Schema({
     require
   },
   isAdmin: {
-    type: String,
+    type: Boolean,
     default: false
   }
 })
@@ -28,6 +28,10 @@ function validateLogin(req) {
 
 userSchema.methods.generateAuthToken = function () {
   const token = jwt.sign({_id : this._id }, process.env.JWTKey);
+  return token;
+}
+userSchema.methods.generateAuthTokenAdmin = function() {
+  const token = jwt.sign({ _id : this.id , isAdmin: this.isAdmin},  process.env.JWTKey)
   return token;
 }
 const User = mongoose.model('User', userSchema, 'users');

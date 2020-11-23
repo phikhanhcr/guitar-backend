@@ -14,7 +14,13 @@ module.exports.createNew = asyncMiddleware(async (req, res) => {
     logger.error('Check req.body')
     return res.status(400).send(error.details[0].message)
   }
-
+  const checkCatalog = await Catalog.find({ name: req.body.name })
+  if (checkCatalog.length) {
+    return res.status('200').send({
+      catalogExist: "Exists Catalog"
+    })
+  }
+  console.log(checkCatalog)
   try {
     var newCatalog = await Catalog.create({
       name: req.body.name
@@ -87,7 +93,7 @@ module.exports.findByLinkLef = asyncMiddleware(async (req, res) => {
     return res.status(400).send("Wrong link Ref")
   }
   try {
-    
+
     res.json(item)
   } catch (error) {
     res.json({ message: error })

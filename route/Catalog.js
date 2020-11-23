@@ -1,7 +1,5 @@
 const express = require('express');
 const router = express.Router();
-
-const asyncMiddleware = require('../middleware/asyncMiddleware');
 const controllerCatalog = require('../controller/Catalog')
 
 router.get('/', controllerCatalog.getAllPro)

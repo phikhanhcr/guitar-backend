@@ -15,6 +15,7 @@ router.post('/', asyncMiddleware(async (req, res) => {
   const { error } = validateLogin(req.body);
   if (error) {
     logger.error('Check input field')
+    console.log(error)
     return res.status(400).send("Check input field");
   }
   let user = await User.findOne({ email: req.body.email })
@@ -34,4 +35,15 @@ router.post('/', asyncMiddleware(async (req, res) => {
   res.json(newUser)
 }))
 
+
+router.delete('/:id', async (req, res ) => {
+  try {
+    await User.findByIdAndRemove(req.params.id);    
+    res.json({
+      message : "Remove successfully"
+    })
+  } catch (error) {
+    console.log(error)
+  }
+})
 module.exports = router;
