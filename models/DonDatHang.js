@@ -9,6 +9,16 @@ const noticeCustomer = new Schema({
     type: ObjectId,
     ref: 'User',
   },
+  cart: [{
+    idProduct: {
+      type: ObjectId,
+      ref: "EachProduct"
+    },
+    amount: {
+      type: Number,
+      require
+    }
+  }],
   name: {
     type: String,
     required: true,
@@ -28,25 +38,28 @@ const noticeCustomer = new Schema({
   note: {
     type: String,
     default: ""
-  }, 
-  payByCash : {
-    type : Boolean,
-    default : true
   },
-  condition : {
-    type : String,
-    enum : ['da-giao', 'da-huy', '']
+  payByCash: {
+    type: Boolean,
+    default: true
+  },
+  condition: {
+    type: String,
+    enum: ['dang-giao', 'da-giao', 'da-huy', 'dang-cho-xac-nhan'],
+    default : 'dang-cho-xac-nhan'
   }
 })
 
 function validateDonHang(req) {
   const schema = {
-    note : Joi.string(),
-    payByCash : Joi.boolean(),
+    note: Joi.string(),
+    payByCash: Joi.boolean(),
+    userId : Joi.objectId().required(),
     name: Joi.string().required(),
     address: Joi.string().required(),
     phone: Joi.string().required(),
-    email: Joi.string().required().email()
+    email: Joi.string().required().email(),
+    cart : Joi.array()
   }
   return Joi.validate(req, schema)
 }

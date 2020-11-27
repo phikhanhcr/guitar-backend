@@ -40,7 +40,7 @@ app.use('/api/user',
 );
 app.use('/api/catalogs', routeCatalogs);
 app.use('/api/group', routeGroup);
-app.use('/api/all-product',AuthTokenMiddleware.checkAdminToken ,routeAllProduct);
+app.use('/api/all-product' ,routeAllProduct);
 app.use(errorMiddleware);
 app.use('/login', routeLogin);
 app.use('/api/donhang', AuthTokenMiddleware.checkAuthToken, routeDonHang)

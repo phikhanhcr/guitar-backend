@@ -125,8 +125,6 @@ router.get('/:userId', async (req, res) => {
   }
 })
 
-
-
 router.delete('/:userId/:proId', async (req, res) => {
   const { userId, proId } = req.params;
   try {
@@ -148,5 +146,8 @@ router.delete('/:userId/:proId', async (req, res) => {
     console.log(error);
   }
 })
+
+// transfer cart remove all 
+
 
 module.exports = router;

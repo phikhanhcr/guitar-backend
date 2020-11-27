@@ -53,3 +53,7 @@
 {"message":"User already exists!","level":"error","timestamp":"2020-11-23T10:34:41.042Z"}
 {"message":"Check input field","level":"error","timestamp":"2020-11-23T10:36:48.268Z"}
 {"message":"User already exists!","level":"error","timestamp":"2020-11-23T10:41:03.078Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-25T16:09:38.011Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-25T16:10:36.947Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-25T16:11:01.117Z"}
+{"message":"Bad request, check req.body","level":"error","timestamp":"2020-11-27T05:17:47.610Z"}

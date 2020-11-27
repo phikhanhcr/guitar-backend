@@ -1,12 +1,6 @@
 const logger = require('../config/Looger');
-const { Catalog } = require('../models/catalogs');
 const { EachProduct, validateEachProduct } = require('../models/eachProduct');
 const { Product } = require('../models/musicalInstrument');
-const multer = require('multer')
-const cloudinary = require('cloudinary').v2;
-const upload = multer({ dest: '../uploads' })
-
-
 
 module.exports.getAllProduct = async (req, res) => {
   try {
