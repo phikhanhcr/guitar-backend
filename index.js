@@ -15,6 +15,7 @@ const routeLogin = require('./route/Login')
 const AuthTokenMiddleware = require('./middleware/AuthTokenMiddleware')
 const routeDonHang = require('./route/DonDatHang');
 const routeAdmin = require('./route/LoginAdmin')
+const routeAdminOrder = require('./route/AdminOrder')
 app.use(cors())
 
 require('winston-mongodb');
@@ -45,8 +46,9 @@ app.use(errorMiddleware);
 app.use('/login', routeLogin);
 app.use('/api/donhang', AuthTokenMiddleware.checkAuthToken, routeDonHang)
 app.use('/admin-login', routeAdmin)
+app.use('/api/admin-donhang', AuthTokenMiddleware.checkAdminToken, routeAdminOrder)
 const server = app.listen(port, () => {
   console.log('App listening on ' + port);
 })
-console.log(listEndpoints(app));
+//console.log(listEndpoints(app));
 module.exports = server;
