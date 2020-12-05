@@ -18,7 +18,7 @@ router.get('/myOrder', async (req, res) => {
     if (!allDonHang.length) {
       return res.send("Nothing in order list")
     }
-    res.json(ConvertOrder(allDonHang))
+    res.json(allDonHang)
   } catch (error) {
     console.log(error)
   }

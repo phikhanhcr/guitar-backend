@@ -1,9 +1,16 @@
-I
-/api/catalogs => all catalogs
+# Back-end for guitar Shop
+## Installation
+```bash
+git clone https://github.com/phikhanhcr/guitar-backend
+```
+## Usage
+> After cloning this project, you have to create your .env file and install all packages reside into project Create your own secret cookie string and set up your database (MongoDB)
+```python
+npm install 
+npm start
+```
 
-/api/group => all group instrument
-/api/group/linkRef => get all group  follow guitar catalogs
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-/api/all-product => all products
-/api/all-product/group => return all product follow guitar group
-/api/all-product/group/item -> return a product
+Please make sure to update tests as appropriate.

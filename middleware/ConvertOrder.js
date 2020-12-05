@@ -3,7 +3,6 @@ module.exports = function removeAccents(data) {
   console.log(data)
   if (data) {
     var newArr = [];
-
     for (let j = 0; j < data.cart.length; j++) {
       let secondArr = {
         cart: data.cart[j],
